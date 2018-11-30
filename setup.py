@@ -29,7 +29,7 @@ setup(
     include_package_data=True,
     install_requires=["requests"],
     extras_require={
-        "dev": ["twine", "therapist", "black", "flake8", "bumpversion"],
+        "dev": ["twine", "therapist", "black", "flake8", "bumpversion", "tox"]
     },
     # entry_points={
     #     "console_scripts": [
