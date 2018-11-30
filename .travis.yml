@@ -3,9 +3,11 @@ language: python
 python:
   - "3.5"
   - "3.6"
-  - "3.7"
+  # Commented out because https://github.com/travis-ci/travis-ci/issues/9815
+  # otherwise you have to use sudo:yes
+  # - "3.7"
 branches:
   only:
-  - master
+    - master
 install: pip install tox-travis
 script: tox
