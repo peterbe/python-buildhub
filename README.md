@@ -28,7 +28,7 @@ print(get_distinct_versions(
     # startswith="64",
 ))
 
-print(get_distinct_versions(
+print(get_distinct_buildids(
     # product="Firefox",
     # channel="beta",
     # startswith="2018",
