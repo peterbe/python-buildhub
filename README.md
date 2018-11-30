@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/peterbe/python-buildhub.svg?branch=master)](https://travis-ci.org/peterbe/python-buildhub)
 [![Code style](https://img.shields.io/badge/Code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![PyPI version](https://badge.fury.io/py/python-buildhub.svg)](https://pypi.org/project/python-buildhub)
 
 A simple wrapper on the Buildhub service. Basically, a glorified
 Elasticsearch over HTTP wrapper.
